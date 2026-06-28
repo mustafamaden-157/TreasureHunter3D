@@ -51,3 +51,19 @@ TreasureHunter3D/
 │   ├── textures/
 │   └── models/
 └── docs/
+
+## Kurulum ve Çalıştırma
+
+Bu proje C++ ve OpenGL tabanlı olarak hazırlanmıştır.
+
+Projeyi çalıştırmak için OpenGL, GLFW, GLAD, GLM ve CMake kütüphanelerinin kurulu olması gerekir.
+
+Temel çalıştırma adımları:
+
+```bash
+git clone https://github.com/mustafamaden-157/TreasureHunter3D.git
+cd TreasureHunter3D
+mkdir build
+cd build
+cmake ..
+cmake --build .
